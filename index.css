@@ -1,0 +1,148 @@
+.main{
+    background-color: white;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+}
+*{
+    margin: 0;
+}
+.main1{
+    height: 400px;
+    width: 50%;
+    background-size: 50% 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: GREY;
+    animation: image 50s  infinite ease-in-out;
+    background-size: cover;
+    margin-left: 25%;
+    background-image: url("pic/f3.png");
+    margin-top: 50px;
+}
+@keyframes  image{
+    0%, 100%{background-image: url("pic/5.jpg"); }
+    25%{background-image: url("pic/6.jpg");}
+    50%{background-image: url("pic/7.jpg");}
+    75%{background-image: url("pic/8.jpg");}
+}
+.smain{
+    height: 400px;
+    width: 100%;
+    opacity: 0;
+    /* background-color: green; */
+    color: black;
+}
+.smain:hover{
+    opacity: 1;
+    visibility: visible;
+    /* background-color: gray; */
+    color: black;
+    background: linear-gradient(to bottom, rgba(241, 223, 223,0.5), rgba(255,255,255,0.5), rgba(70, 66, 66,0.5));
+
+}
+.main1 h1{
+    /* margin: auto; */
+    margin-top: 200px;
+    top: 200px;
+    left: 50px;
+    position: relative;
+    max-width: 50%;
+}
+.main11 h1{
+    background-color: grey;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    padding-top: 1%;
+}
+.main11 img{
+    background-color: grey;
+    /* display: inline-block; */
+    border-radius: 50%;
+    top: 15%;
+}
+.main12{
+    background-color: gray;
+}
+.main12  h1{
+    font-size: 50px;
+}
+.main12 div ul{
+    display: flex;
+
+    top: 0;
+}
+.main12 ul li{
+    list-style: none;
+    margin-left: 150px;
+    color: white;
+}
+.main12 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.main13{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    font-size: 50px;
+    bottom: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    height: 250px;
+
+}
+.main13 ul li{
+    top: 0;
+    color: white;
+}
+.main12{
+    height: 200px;
+}
+.main15 img{
+
+    height: 200px;
+    width: 25%;
+    border-radius: 25%;
+}
+.main15 p{
+    margin-bottom: 50px;
+}
+.main15 h1{
+    color: aqua;
+}
+.main16{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+}
+p{
+    max-width: 300px;
+}
+.a{
+    position: relative;
+    /* right: 0; */
+    left: 1200px;
+}
+.c{
+    position: relative;
+    /* right: 0; */
+    left: 1200px;
+}
+h1{
+    color: aqua;
+}
+.b{
+    position: relative;
+    left: 4%;
+}
+.d{
+    position: relative;
+    left: 4%;
+}
+.e{
+    position: relative;
+    left: 4%;
+}
+
